@@ -1,0 +1,33 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.example</groupId>
+    <artifactId>my-first-bot</artifactId>
+    <version>1.0</version>
+	
+	<properties>
+    <maven.compiler.source>21</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <!-- or using the java.version property commonly used in Spring Boot projects -->
+    <java.version>11</java.version> 
+</properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>com.vibium</groupId>
+            <artifactId>vibium</artifactId>
+            <version>26.3.18</version>
+        </dependency>
+    </dependencies>
+	
+	<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.13.0</version> <!-- Use a recent version -->
+        </plugin>
+    </plugins>
+</build>
+
+</project>

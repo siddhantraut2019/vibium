@@ -1,0 +1,15 @@
+ plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.vibium:vibium:26.3.18'
+}
+
+application {
+    mainClass = 'Hello'
+}
